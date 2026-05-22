@@ -12,14 +12,11 @@ body {
     font-style: normal;
     background: var(--bg);
     color: var(--text);
-    display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 #head {
     color: var(--accent);
-
 }
 
 .navbar {
