@@ -14,8 +14,11 @@ body {
     color: var(--text);
 }
 
-#head {
+#home {
     text-align: center;
+}
+
+#head {
     color: var(--accent);
 }
 
