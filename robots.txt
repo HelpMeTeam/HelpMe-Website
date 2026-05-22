@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://helpme.leaguematrix.co.uk/sitemap.xml

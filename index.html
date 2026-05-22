@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="application-name" content="HelpMe!">
+        <meta name="author" content="Henry Christie">
+        <meta name="description" content="HelpMe is a Discord Support Company focused on Support Solutions">
+        <meta name="keywords" content="Help, Me, HelpMe, Discord, Discord Support, Tickets Bot, Support, ModMail">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>HelpMe Support</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="https://helpme.leaguematrix.co.uk/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://helpme.leaguematrix.co.uk/assets/favicons/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://helpme.leaguematrix.co.uk/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" href="https://helpme.leaguematrix.co.uk/assets/favicons/favicon.ico">
+        <link rel="manifest" href="https://helpme.leaguematrix.co.uk/assets/favicons/site.webmanifest">
+
+        <link rel="stylesheet" href="https://helpme.leaguematrix.co.uk/css/styles.css">
+        <link rel="canonical" href="https://helpme.leaguematrix.co.uk/">
+        
+        <meta property="og:title" content="HelpMe!">
+        <meta property="og:description" content="Discord Support Bots">
+        <meta property="og:image" content="https://helpme.leaguematrix.co.uk/assets/banner.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "HelpMe Support Bots",
+                "applicationCategory": "CommunicationApplication",
+                "operatingSystem": "Discord",
+                "url": "https://helpme.leaguematrix.co.uk",
+                "description": "HelpMe is a Discord Support Company focused on Support Solutions"
+            }
+        </script>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="https://helpme.leaguematrix.co.uk/">
+                        <img src="https://helpme.leaguematrix.co.uk/assets/favicons/favicon-32x32.png">
+                    </a>
+                </div>
+            </div>
+
+            <nav class="nav-center" id="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#hosting">Hosting</a>
+            </nav>
+
+            <div class="nav-right">
+                <a class="cta" href="https://helpme.leaguematrix.co.uk/discord" target="_blank">
+                    Support Server
+                </a>
+
+                <button class="hamburger" id="hamburger">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </header>
+
+        <div id="home">
+            <h1>Welcome to <h1 id="head">HelpMe!</h1></h1>
+            <p>A no-nonsense support bot company.</p>
+        </div>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+            lucide.createIcons();
+
+            const hamburger = document.getElementById("hamburger");
+            const menu = document.getElementById("nav-menu");
+
+            hamburger.addEventListener("click", () => {
+                menu.classList.toggle("active");
+            });
+        </script>
+    </body>
+</html>
