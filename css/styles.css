@@ -12,10 +12,12 @@ body {
     font-style: normal;
     background: var(--bg);
     color: var(--text);
-    align-items: center;
 }
 
 #head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: var(--accent);
 }
 
